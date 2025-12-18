@@ -7,7 +7,7 @@ if [ "$EUID" -ne 0 ]; then
   exit 1
 fi
 
-echo "=== ULTIMATE UBUNTU DEBLOAT + BATTERY SCRIPT ==="
+echo "=== UBUNTU DEBLOAT + BATTERY SCRIPT ==="
 
 read -p "Proceed with aggressive debloat? (y/N): " GO
 [[ "$GO" =~ ^[Yy]$ ]] || exit 0
